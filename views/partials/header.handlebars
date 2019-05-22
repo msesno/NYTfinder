@@ -1,0 +1,45 @@
+  <nav class="navbar navbar-expand-lg navbar-dark navbg">
+  <a class="navbar-brand navi" href="/">NYTfinder</a>
+  <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false"
+    aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="/">Home
+          <span class="sr-only">(current)</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/saved">Saved</a>
+      </li>
+      {{#if home}}
+      <li class="nav-item">
+        <a class="btn btn-success btn-sm scrape-new">FIND ARTICLES</a>
+      </li>
+      {{/if}}
+      <li class="nav-item">
+        <a class="btn btn-warning btn-sm clear">CLEAR SAVED ARTICLES</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="jumbotron text-center">
+  <div class="overlay">
+  </div>
+  <div class="background-image">
+  </div>
+  <div class="caption">
+    {{#if home}}
+    <h1>NYTfinder</h1>
+    <p>Find & Save Articles From nytimes.com</p>
+    {{else}}
+    <h1>Saved Articles</h1>
+    <p>Your Saved nytimes.com Articles</p>
+    {{/if}}
+  </div>
+</div>
+  
