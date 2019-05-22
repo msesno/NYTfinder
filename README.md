@@ -24,10 +24,10 @@ open console:
 - templating: handlebars
 - database: MongoDB
 
-## Links
+### Links
 - Repository: https://github.com/msesno/NYTfinder/
 - Deployed site: https://aqueous-journey-47094.herokuapp.com/
 
 
-## Screenshot
+### Screenshot
 <img src="/public/assets/images/ss1.png"><br>
