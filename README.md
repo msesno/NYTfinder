@@ -1,6 +1,6 @@
 # NYTfinder
 This is a web scraper app for nytimes.com online news articles. It allows you to search current articles and save them to mongoDB with additional notes. 
-- Deployed to heroku: https://NYTfinder.herokuapp.com/
+- Deployed to heroku: https://aqueous-journey-47094.herokuapp.com/
 
 ## Getting started
 - clone repo
@@ -27,7 +27,7 @@ node server.js
 
 ## Links
 - Repository: https://github.com/msesno/NYTfinder/
-- Deployed site: https://NYTfinder.herokuapp.com/
+- Deployed site: https://aqueous-journey-47094.herokuapp.com/
 
 
 ## Screenshot
