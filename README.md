@@ -9,11 +9,10 @@ This is a web scraper app for nytimes.com online news articles. It allows you to
 - use local port specified
 
 open console:
-```
-git clone https://github.com/msesno/NYTfinder.git
-npm install
-node server.js
-```
+```git clone https://github.com/msesno/NYTfinder.git``` <br>
+```npm install``` <br>
+```node server.js```
+
 
 ### Front-end
 - HTML, CSS (Bootstrap)
