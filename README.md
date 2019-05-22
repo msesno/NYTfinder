@@ -30,3 +30,5 @@ node server.js
 - Repository: https://github.com/msesno/NYTfinder/
 - Deployed site: https://NYTfinder.herokuapp.com/
 
+## Screenshot
+<img src="/public/assets/images/ss1.png"><br>
